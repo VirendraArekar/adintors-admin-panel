@@ -63,9 +63,8 @@ export default [
         title: 'Cancel',
         icon: <Circle size={12} />,
         navLink: '/apps/invoice/add'
-      }
-
-{
+      },
+      {
         id: 'invoiceAdd',
         title: 'Disputed',
         icon: <Circle size={12} />,
