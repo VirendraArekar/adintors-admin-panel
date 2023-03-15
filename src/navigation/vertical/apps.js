@@ -7,60 +7,67 @@ export default [
   },
   {
     id: 'email',
-    title: 'Email',
+    title: 'All Influencer',
     icon: <Mail size={20} />,
     navLink: '/apps/email'
   },
   {
     id: 'chat',
-    title: 'Chat',
+    title: 'All Companies',
     icon: <MessageSquare size={20} />,
     navLink: '/apps/chat'
   },
   {
     id: 'todo',
-    title: 'Todo',
+    title: 'Post',
     icon: <CheckSquare size={20} />,
     navLink: '/apps/todo'
   },
   {
     id: 'calendar',
-    title: 'Calendar',
+    title: 'Add Zone',
     icon: <Calendar size={20} />,
     navLink: '/apps/calendar'
   },
   {
     id: 'kanban',
-    title: 'Kanban',
+    title: 'Banner',
     icon: <CheckSquare size={20} />,
     navLink: '/apps/kanban'
   },
   {
     id: 'invoiceApp',
-    title: 'Invoice',
+    title: 'All Oder',
     icon: <FileText size={20} />,
     children: [
       {
         id: 'invoiceList',
-        title: 'List',
+        title: 'Pending',
         icon: <Circle size={12} />,
         navLink: '/apps/invoice/list'
       },
       {
         id: 'invoicePreview',
-        title: 'Preview',
+        title: 'Complete',
         icon: <Circle size={12} />,
         navLink: '/apps/invoice/preview'
       },
       {
         id: 'invoiceEdit',
-        title: 'Edit',
+        title: 'Ongoing',
         icon: <Circle size={12} />,
         navLink: '/apps/invoice/edit'
       },
       {
         id: 'invoiceAdd',
-        title: 'Add',
+        title: 'Cancel',
+        icon: <Circle size={12} />,
+        navLink: '/apps/invoice/add'
+      }
+
+{
+        id: 'invoiceAdd',
+        title: 'Disputed',
         icon: <Circle size={12} />,
         navLink: '/apps/invoice/add'
       }
@@ -88,33 +95,16 @@ export default [
   },
   {
     id: 'eCommerce',
-    title: 'eCommerce',
+    title: 'Wallet',
     icon: <ShoppingCart size={20} />,
     children: [
       {
         id: 'shop',
-        title: 'Shop',
+        title: 'Transaction',
         icon: <Circle size={12} />,
         navLink: '/apps/ecommerce/shop'
       },
-      {
-        id: 'detail',
-        title: 'Details',
-        icon: <Circle size={12} />,
-        navLink: '/apps/ecommerce/product-detail'
-      },
-      {
-        id: 'wishList',
-        title: 'Wish List',
-        icon: <Circle size={12} />,
-        navLink: '/apps/ecommerce/wishlist'
-      },
-      {
-        id: 'checkout',
-        title: 'Checkout',
-        icon: <Circle size={12} />,
-        navLink: '/apps/ecommerce/checkout'
-      }
+      
     ]
   },
   {
